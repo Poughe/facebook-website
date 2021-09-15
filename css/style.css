@@ -1,0 +1,199 @@
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#48649F, #3B5998, #3B5998);
+    border-bottom: 1px solid #253a69;
+}
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+}
+.loginForm{
+    display: flex;
+    position: absolute;
+    
+    left: 58%;
+    top: 15px;
+}
+.loginForm .email,
+.loginForm .password{
+    padding-left: 10px;
+}
+.loginForm .email .font,
+.loginForm .password .font{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+}
+.loginForm .email input,
+.loginForm .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.loginForm button{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #2d5bba;
+    border: 1px solid #224285;
+}
+.loginForm button:hover{
+    background: #3B5998;
+}
+
+
+section{
+    height: 614px;
+    width: 100%;
+    top: 80px;
+    background: linear-gradient(#FDFDFE, #EFF1F6, #E3E6F0, #E1E5F0, #D6DBEA);
+    
+}
+.connectionLogo{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.connectionLogo .like_font{
+    font-family: arial;
+    font-size: 25px;
+    margin-left: -30px;
+}
+.connectionLogo .font1{
+    color: #083987;
+    margin-left: 20px;   
+    margin-bottom: 5px;
+}
+.signupSec{
+    font-family: arial;
+    position: absolute;
+    left: 57%;  
+}
+.signupSec .account{
+    font-size: 40px;
+    margin: 25px 0;
+}
+.signupSec .free{
+    margin: -20px 5px;
+    font-size: 18px;
+}
+.signupSec .signup_form input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.signupSec .signup_form .lastname{
+    margin-left: 15px;
+}
+.signupSec .signup_form .email,
+.signupSec .signup_form .password,
+.signupSec .signup_form .password2{
+    margin-top: 20px;
+    width: 410px;
+}
+.signupSec .signup_form .birthday{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.signupSec .signup_form .birthDate{
+    margin-top: 5px;
+}
+.signupSec .signup_form .month,
+.signupSec .signup_form .day,
+.signupSec .signup_form .year{
+    height: 28px;
+}
+.signupSec .signup_form .day,
+.signupSec .signup_form .year{
+    margin-left: -5px;
+}
+.signupSec .signup_form .why{
+    font-size: 11px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 150px;
+}
+.signupSec .signup_form a{
+    text-decoration: none;
+}
+.signupSec .signup_form a:hover{
+    text-decoration: underline;
+}
+.signupSec .signup_form input[type="radio"]{
+    height: 15px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.signupSec .signup_form input[value="female"]{
+    margin-left: -100px;
+}
+.signupSec .signup_form .font{
+    margin-left: 57px;
+    margin-top: -17px;
+}
+.signupSec .signup_form .font2{
+    margin-left: 150px;
+}
+.signupSec .signup_form .agreement{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: grey;
+}
+.signupSec .signup_form .signup{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid green;
+    border-radius: 3px;
+    outline: none;
+    background: linear-gradient(#6fad5a, #66a150, #60974C);
+}
+.signupSec .signup_form .signup:hover{
+    background: linear-gradient(#74b85e, #598B45);
+}
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
