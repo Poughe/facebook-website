@@ -14,7 +14,7 @@ My learning was mastering HTML and CSS to where I can get comfortable in creatin
 
 ## Optimizations
 
-I would love to come back to this project and add more functionality to it. Not too much optimization needed as (I think) my codr was prety lean, but maybe I will think otherwise in the future. 
+I would love to come back to this project and add more functionality to it. Not too much optimization needed as (I think) my code was prety lean, but maybe I will think otherwise in the future. 
 
 ## Lessons Learned:
 
